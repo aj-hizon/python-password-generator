@@ -1,5 +1,5 @@
 from tkinter import *
-from turtle import bgcolor
+
 #---------------------------- PASSWORD GENERATOR ---------------------------#
 #---------------------------- SAVE PASSWORD ---------------------------#
 def save():
@@ -14,7 +14,6 @@ def save():
 
 
 #---------------------------- UI SETUP ---------------------------#
-265
 
 window = Tk()
 window.title("Password Manager")
@@ -46,7 +45,7 @@ password_entry.grid(row=3, column=1, columnspan=2)
 #Buttons
 generate_password_button = Button(text="Generate Password", width=14)
 generate_password_button.grid(row=4, column=1, columnspan=1)
-add_button = Button(text="Add", width=36, command=save())
+add_button = Button(text="Add", width=36, command=save)
 add_button.grid(row=5, column=1, columnspan=2)
 
 
