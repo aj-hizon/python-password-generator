@@ -1,6 +1,11 @@
 from tkinter import *
 from turtle import bgcolor
 #---------------------------- PASSWORD GENERATOR ---------------------------#
+
+
+
+
+
 #---------------------------- SAVE PASSWORD ---------------------------#
 def save():
 
