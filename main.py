@@ -5,7 +5,7 @@ from tkinter import messagebox
  
  
 
- 
+
 
 #---------------------------- SAVE PASSWORD ---------------------------#
 def save():
@@ -22,7 +22,6 @@ def save():
         with open(r"C:\Users\Hizon\Desktop\Coding\python\day-29-password-manager-gui\data.txt", "a") as data_file:
             data_file.write(f"{website} | {email} | {password}")
   
-
 
 #---------------------------- UI SETUP ---------------------------#
 
